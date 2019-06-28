@@ -25,9 +25,9 @@ const courseSchema= new mongoose.Schema(
 const Course = mongoose.model('Course',courseSchema);
 const course = new Course(
     {
-        name:'NodeJs',
+        name:'AngularJs',
         author:'Jnanith',
-        tags:['node','backend'],
+        tags:['angular','frontend'],
         isPublished:true
     }
 );
